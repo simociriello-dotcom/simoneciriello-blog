@@ -1,0 +1,8 @@
+title: "Insights | Simone Ciriello"
+description: "Consigli pratici su e-commerce, Shopify, marketing, UX e automazioni."
+url: "https://simociriello-dotcom.github.io"
+baseurl: "/simoneciriello-blog"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+exclude:
+  - README.md
