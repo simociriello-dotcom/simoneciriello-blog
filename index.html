@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="eyebrow">SIMONE CIRIELLO / INSIGHTS</p>
+  <h1>Idee concrete per costruire e-commerce migliori.</h1>
+  <p>Strategie, esperimenti e indicazioni operative su Shopify, conversioni, marketing digitale e automazioni.</p>
+  <a class="cta" href="https://simoneciriello.it">Scopri i servizi di consulenza &nearr;</a>
+</section>
+<section class="posts"><div class="eyebrow">APPROFONDIMENTI</div>
+  {% for post in site.posts %}
+  <article class="post-tile">
+    <time>{{ post.date | date: '%d/%m/%Y' }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.description }}</p>
+    <a href="{{ post.url | relative_url }}">Leggi l'articolo &rarr;</a>
+  </article>
+  {% endfor %}
+</section>
